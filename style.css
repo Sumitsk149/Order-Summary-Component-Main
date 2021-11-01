@@ -1,0 +1,58 @@
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-weight: 500, 700, 900;
+  font-family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display);
+}
+
+.main-container {
+  border-radius: 15px;
+}
+
+.img-fluid {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+p {
+  font-size: 16px;
+}
+
+#ap {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+
+.btn:focus,
+.btn:hover {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-success,
+.btn-success:active,
+.btn-success:hover,
+.btn-success:focus {
+  background-color: hsl(245, 75%, 52%) !important;
+  border-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  font-size: medium;
+  outline: none;
+  box-shadow: none !important;
+}
+
+#btnCancel {
+  color: gray;
+}
+
+#btnChange {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  font-size: small;
+}
